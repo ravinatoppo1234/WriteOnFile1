@@ -14,7 +14,7 @@ public class FileWritingOnFile
 	{
 		FileInputStream fis=new FileInputStream(filenm);
 		
-		System.out.println("excel writing in github");
+		System.out.println("excel write in github");
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet sheet=wb.getSheet(Sheetnm);
 		XSSFRow row=sheet.getRow(2);
